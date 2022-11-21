@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+body{    
+    background-color: #4B4B4B;
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+
+
+.ui_box {
+    height: 150vh;    
+    width: 90%;
+    margin: auto;  
+      
+}
+.ui_box  .main{
+    height: 90vh;
+    background-color: #E5FF96;    
+    margin-top: 10vh;
+}
+.ui_box  .main nav{
+      height: 20vh;
+     
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.ui_box  .main nav p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    margin-right: 350px;
+}
+.ui_box  .main nav ul{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.ui_box  .main nav ul li a{
+    color: #495429;
+    font-size: 18px;
+}
+.ui_box  .main nav button{
+    border: none;
+    background-color:#464646;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.ui_box  .main .hero{
+    height: 70vh;
+    display: flex;
+   
+}
+.ui_box  .main .hero .hero_img{
+    width: 50%;
+}
+.ui_box  .main .hero .hero_img img{
+    height:70vh;
+    margin-left: 50px;
+}
+.ui_box  .main .hero .hero_content{
+    width: 50%;
+   
+
+}
+.ui_box  .main .hero .hero_content h1{
+    font-size: 58px;
+    word-spacing: 10px;
+}
+.ui_box  .main .hero .hero_content p{
+    font-size: 10px;
+    color:#495429 ;
+    margin-top: 10px;
+    word-spacing: 1px;
+}
+.ui_box  .main .hero .hero_content .play{
+    height: 150px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.ui_box  .main .hero .hero_content .play span{    
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+.ui_box  .main .hero .hero_content .play ul:nth-child(2){
+    height: 100px;
+    width: 100px;
+    border: 2px solid #495429;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+.ui_box  .main .hero .hero_content .play ul:nth-child(3){
+    height: 100px;
+    width: 100px;
+    border: none;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    margin-right: 100px;
+}
+.ui_box  .main .hero .hero_content .play ul li:nth-child(1){
+    font-size: 25px;
+    font-weight: 600;
+    color: #495429;
+}
+.ui_box  .main .hero .hero_content .play ul li:nth-child(2){
+    font-size: 12px;
+    font-weight: 400;
+    color: #495429;
+}
+.ui_box .about-section{
+    height: 50vh;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.ui_box .about-section .about-content{
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}
+.ui_box .about-section .about-content h1{
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: #495429;
+}
+.ui_box .about-section .about-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.ui_box .about-section .about-img{
+    height: 100%;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
